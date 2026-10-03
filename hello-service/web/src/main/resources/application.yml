@@ -3,4 +3,4 @@ spring:
     name: hello-service
 
 server:
-  port: 1010
+  port: 8080
