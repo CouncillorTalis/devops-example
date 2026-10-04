@@ -1,0 +1,15 @@
+version: 2.1
+
+jobs:
+  placeholder-job:
+    docker:
+      - image: cimg/openjdk:21.0
+    steps:
+      - run:
+          name: Placeholder Step
+          command: echo "Spring Boot build pipeline placeholder."
+
+workflows:
+  placeholder-workflow:
+    jobs:
+      - placeholder-job
